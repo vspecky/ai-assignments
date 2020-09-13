@@ -27,7 +27,8 @@ Where `<N>` is the number of queens.
 - **bf**: Brute Force
 - **rw**: Row-wise optimized Brute Force
 - **pbf**: Brute Force with Pruning
-- **prw**:  Row-wise optimized Brute Force with Pruning
+- **prw**:  Row-wise optimized Brute Force with Pruning  
+
 `<threading>` is whether to use multithreading or not :-
 - **t** - Use
 - **f** - Nah
