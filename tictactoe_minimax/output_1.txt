@@ -1,0 +1,42 @@
+Opponent is thinking...
+Opponent's move: 0, 0
+
+Current State:
+ X | _ | _ 
+-----------
+ _ | _ | _ 
+-----------
+ _ | _ | _ 
+
+Enter your move (eg: 0, 2): 1, 0
+Opponent is thinking...
+Opponent's move: 0, 1
+
+Current State:
+ X | O | _ 
+-----------
+ X | _ | _ 
+-----------
+ _ | _ | _ 
+
+Enter your move (eg: 0, 2): 0, 2
+Opponent is thinking...
+Opponent's move: 1, 1
+
+Current State:
+ X | O | _ 
+-----------
+ X | X | _ 
+-----------
+ O | _ | _ 
+
+Enter your move (eg: 0, 2): 2, 1
+Opponent is thinking...
+Opponent's move: 2, 2
+
+ X | O | _ 
+-----------
+ X | X | O 
+-----------
+ O | _ | X 
+You lose!

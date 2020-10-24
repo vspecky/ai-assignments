@@ -1,0 +1,60 @@
+Current State:
+ _ | _ | _ 
+-----------
+ _ | _ | _ 
+-----------
+ _ | _ | _ 
+
+Enter your move (eg: 0, 2): 1, 1
+Opponent is thinking...
+Opponent's move: 0, 0
+
+Current State:
+ X | _ | _ 
+-----------
+ _ | O | _ 
+-----------
+ _ | _ | _ 
+
+Enter your move (eg: 0, 2): 0, 1
+Opponent is thinking...
+Opponent's move: 2, 1
+
+Current State:
+ X | _ | _ 
+-----------
+ O | O | X 
+-----------
+ _ | _ | _ 
+
+Enter your move (eg: 0, 2): 2, 0
+Opponent is thinking...
+Opponent's move: 0, 2
+
+Current State:
+ X | _ | O 
+-----------
+ O | O | X 
+-----------
+ X | _ | _ 
+
+Enter your move (eg: 0, 2): 1, 0
+Opponent is thinking...
+Opponent's move: 1, 2
+
+Current State:
+ X | O | O 
+-----------
+ O | O | X 
+-----------
+ X | X | _ 
+
+Enter your move (eg: 0, 2): 2, 2
+
+
+ X | O | O 
+-----------
+ O | O | X 
+-----------
+ X | X | O 
+Draw!
