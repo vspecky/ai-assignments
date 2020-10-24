@@ -1,9 +1,14 @@
+% Name: Shashank Attarde
+% PRN: 0120180337
+% Roll No: 015
+% Branch: TY B.Tech Comp
+
 swap_pro("i", "you").
 swap_pro("my", "your").
 swap_pro("mine", "yours").
 swap_pro("am", "are").
 
-res([["hi", "my", "name"], ["hello", "my", "name"]],
+res([["hi", "my", "name"], ["hello", "my", "name"], ["my", "name", "is"], ["my", "name's"]],
     ["Hey! My name's Intellectualis. You've got a cool name!", "Nice to meet you! I'm Intellectualis!"]).
 res([["how", "are", "you"], ["how's", "it", "going"]],
     ["I'm Binary! How bout you?", "I'm doing great! how are you?"]).
@@ -20,20 +25,22 @@ res([["yes", "i", "do"]],
     ["Cool!", "Nice! tell me more!", "That's cool"]).
 res([["thank", "you"], ["thanks"]],
     ["You're welcome!", "No problem!", "Anytime"]).
-res([["hi"]],
-    ["Hi! I'm Intellectualis, a simple chatbot!"]).
 res([["i", "switch", "linux"], ["i", "switching", "linux"]],
-    ["Switching to Linux is the best thing you can do", "Linux is the best OS"]).
-res([["use", "windows"]],
+    ["Switching to Linux is the best thing you can do", "Linux is the best OS", "I love Manjaro Linux"]).
+res([["use", "windows"], ["i", "switch", "windows"]],
     ["Using Windows is the worst thing you can do", "Windows is the worst OS"]).
 res([["do", "you", "like"]],
-    ["Yes I do!", "No I don't!", "Do YOU like it?"]).
+    ["Yes I do! you?", "No I don't! you?", "Do YOU like it?"]).
+res([["i", "like", "it"], ["i", "dont", "like"]],
+    ["Cool", "Not my place to judge"]).
 res([["why", "not"]],
     ["I don't know", "I can't explain it"]).
 res([["why", "like", "it"]],
     ["I just do!"]).
 res([["i", "dont"], ["i", "do", "not"], ["not", "me"]],
     ["Why not?", "I respect that"]).
+res([["hi"], ["hello"], ["hi", "there"], ["hello", "there"]],
+    ["hi there! what's your name?"]).
 res([[]],
     ["I don't know how to respond to that"]).
 
@@ -69,7 +76,6 @@ main :-
     repeat,
     read_line_to_codes(user_input, Cs),
     atom_codes(Input, Cs),
-    %read_string(Input),
     get_response(Input, Response),
     write(Response), nl.
 
